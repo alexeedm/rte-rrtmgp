@@ -1,6 +1,6 @@
 jobs:
 - job: build_daint
-  pool: CSCS
+  pool: default
   strategy:
     matrix:
       pgi_default_gpu:
